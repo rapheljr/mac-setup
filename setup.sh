@@ -5,7 +5,11 @@ sudo -v
 
 cd ~
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
-while true; do sudo -nv true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do
+  sudo -nv true
+  sleep 60
+  kill -0 "$$" || exit
+done 2>/dev/null &
 
 #! /bin/bash
 
@@ -24,7 +28,7 @@ brew upgrade
 
 brew install git
 
-git clone https://github.com/luckyganesh/mac-setup.git
+git clone https://github.com/rapheljr/mac-setup.git
 
 cd mac-setup
 
@@ -32,7 +36,7 @@ source install.sh
 
 cd ~
 
-git clone https://github.com/luckyganesh/dotfiles.git
+git clone https://github.com/rapheljr/dotfiles.git
 
 cd dotfiles
 

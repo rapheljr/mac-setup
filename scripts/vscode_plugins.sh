@@ -12,8 +12,59 @@ vscodePlugins=(
     formulahendry.auto-rename-tag
     2gua.rainbow-brackets
     pranaygp.vscode-css-peek
+    betterthantomorrow.calva
+    betterthantomorrow.calva-spritz
+    bierner.markdown-checkbox
+    Bito.Bito
+    Blackboxapp.blackbox
+    bmewburn.vscode-intelephense-client
+    bradlc.vscode-tailwindcss
+    burkeholland.simple-react-snippets
+    csstools.postcss
+    dbaeumer.vscode-eslint
+    denoland.vscode-deno
+    DigitalBrainstem.javascript-ejs-support
+    eamodio.gitlens
+    ecmel.vscode-html-css
+    equinusocio.vsc-material-theme-icons
+    esbenp.prettier-vscode
+    formulahendry.auto-rename-tag
+    foxundermoon.shell-format
+    GitHub.github-vscode-theme
+    jeff-hykin.better-dockerfile-syntax
+    jeremyrajan.react-component
+    kimuson.perltidy-vscode
+    kshetline.ligatures-limited
+    maty.vscode-mocha-sidebar
+    mongodb.mongodb-vscode
+    ms-azuretools.vscode-docker
+    ms-python.isort
+    ms-python.python
+    ms-python.vscode-pylance
+    ms-vscode-remote.remote-containers
+    ms-vscode.makefile-tools
+    ms-vscode.powershell
+    ms-vscode.vscode-typescript-next
+    msjsdiag.vscode-react-native
+    PKief.material-icon-theme
+    redhat.java
+    sastan.twind-intellisense
+    streetsidesoftware.code-spell-checker
+    VisualStudioExptTeam.intellicode-api-usage-examples
+    VisualStudioExptTeam.vscodeintellicode
+    vscjava.vscode-gradle
+    vscjava.vscode-java-debug
+    vscjava.vscode-java-dependency
+    vscjava.vscode-java-pack
+    vscjava.vscode-java-test
+    vscjava.vscode-maven
+    vscjava.vscode-spring-initializr
+    Vue.volar
+    WallabyJs.quokka-vscode
+    withfig.fig
+    zhuangtongfa.material-theme
 )
 
 for i in "${vscodePlugins[@]}"; do
-    code --install-extension "$i"; 
+    code --install-extension "$i"
 done

@@ -1,4 +1,4 @@
-mkdir -p ~/.vim/pack/plugins/start;
+mkdir -p ~/.vim/pack/plugins/start
 git clone https://github.com/sickill/vim-monokai.git
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/airblade/vim-gitgutter.git

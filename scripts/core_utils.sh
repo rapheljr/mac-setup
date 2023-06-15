@@ -268,15 +268,6 @@ coreUtils=(
     zsh-you-should-use
     zshdb
     zstd
-    adoptopenjdk8
-    fig
-    font-fira-code
-    font-fira-code-nerd-font
-    nisus-thesaurus
-    rectangle
-    stats
-    warp
-    xbar
 )
 
 for i in "${coreUtils[@]}"; do
